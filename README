@@ -1,0 +1,13 @@
+(RMI): Using RMI, write an application for a prototype opinion poll system. Assume that only one issue is being polled. Respondents may choose yes, or no. Write a client-server application to accept the votes, keep the tally (in memory), and provide the current counts to those who are interested.
+
+For example, run the client three times as follows:
+
+
+Enter port: What is your vote?[yes|no] : yes
+Yes = 1; No = 0
+
+Enter port: What is your vote?[yes|no] : no
+Yes = 1; No = 1
+
+Enter port: What is your vote?[yes|no] : no
+Yes = 1; No = 2
